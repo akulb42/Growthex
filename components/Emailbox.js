@@ -64,11 +64,13 @@ const ContactUs = () => {
             ></textarea>
           </li>
           <li>
-            <input
-              type="submit"
-              className="mt-2 rounded border-solid border h-8  w-24 text-white text-center bg-green-500"
-              value="Send"
-            />
+            <button>
+              <input
+                type="submit"
+                className="mt-2 rounded border-solid border h-8  w-24 text-white text-center bg-green-500 hover:cursor-pointer"
+                value="Send"
+              />
+            </button>
           </li>
         </ul>
       </form>
